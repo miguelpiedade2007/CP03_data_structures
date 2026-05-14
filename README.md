@@ -8,3 +8,6 @@ Este é um simulador de ATM
 * **Saque:** Permite retirar dinheiro com validação de limite e saldo insuficiente.
 * **Depósito:** Adiciona valores ao saldo atual.
 * **Extrato Bancário (Desafio):** Exibe as últimas 3 operações realizadas (Saque/Depósito) e o saldo final.
+## Como Executar
+1. Compile o arquivo: `gcc main.c -o atm`
+2. Execute:   `atm.exe` 
