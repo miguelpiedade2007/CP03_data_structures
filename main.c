@@ -1,7 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Funções 
+float fazerSaque(float saldo) {
+    float valor;
+    printf("Digite o valor do saque: ");
+    scanf("%f", &valor);
 
+    if (valor > saldo) {
+        printf("Saldo insuficiente!\n");
+    } else {
+        saldo = saldo - valor;
+        printf("Saque realizado!\n");
+    }
+    system("pause");
+    return saldo;
+}
 
 
 
