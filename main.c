@@ -17,6 +17,16 @@ float fazerSaque(float saldo) {
     return saldo;
 }
 
+float fazerDeposito(float saldo) {
+    float valor;
+    printf("Digite o valor do deposito: ");
+    scanf("%f", &valor);
+    
+    saldo = saldo + valor;
+    printf("Deposito realizado!\n");
+    system("pause");
+    return saldo;
+}
 
 
 //função main
